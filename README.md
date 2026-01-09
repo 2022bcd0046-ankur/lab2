@@ -1,7 +1,7 @@
 <center>
 
 ## CSS 426 ML Ops
-#### Lab - 2
+### Lab - 2
 
 </center>
 
@@ -12,10 +12,10 @@
 
 ---
 
-##### 1. GitHub Repository Link
+#### 1. GitHub Repository Link
 - [github.com/2022BCD0046-ankur/lab2](https://github.com/2022bcd0046-ankur/lab2)
 
-##### 2. Screenshots of Job Summary and Artifacts
+#### 2. Screenshots of Job Summary and Artifacts
 
 - EXP-01: [Run Link](https://github.com/2022bcd0046-ankur/lab2/actions/runs/20863825104)
 
@@ -45,7 +45,7 @@
 
 ![alt text](assets/image-12.png)
 
-##### 3. Analysis Questions
+#### 3. Analysis Questions
 
 1. How did GitHub Actions improve reproducibility?
 
