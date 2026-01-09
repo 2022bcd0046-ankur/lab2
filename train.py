@@ -16,7 +16,7 @@ X = data.drop("quality", axis=1)
 y = data["quality"]
 
 # Experiment Config Details
-exp_id = "EXP-01"
+exp_id = "EXP-02"
 model_name = "Linear Regression"
 hyperparams = "Ridge Alpha-1"
 preprocess = "Standard"
