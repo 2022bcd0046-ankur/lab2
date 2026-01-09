@@ -17,7 +17,7 @@ y = data["quality"]
 
 # Experiment Config Details
 exp_id = "EXP-01"
-model = "Linear Regression"
+model_name = "Linear Regression"
 hyperparams = "Default"
 preprocess = "Standard"
 feature_select = "All Features"
@@ -44,7 +44,7 @@ r2 = r2_score(y_test, y_pred)
 print(f"""
 # {exp_id}
 ----------------------------------------
-Model               : {model}
+Model               : {model_name}
 Hyperparameters     : {hyperparams}
 Preprocessing       : {preprocess}
 Feature Selection   : {feature_select}
@@ -59,7 +59,7 @@ joblib.dump(model, "outputs/model.pkl")
 
 results = {
     "Experiment ID": exp_id,
-    "Model": model,
+    "Model": model_name,
     "Hyperparameters": hyperparams,
     "Preprocessing": preprocess,
     "Feature Selection": feature_select,
