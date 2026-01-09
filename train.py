@@ -16,30 +16,24 @@ X = data.drop("quality", axis=1)
 y = data["quality"]
 
 # Experiment Config Details
-exp_id = "EXP-03"
+exp_id = "EXP-04"
 model_name = "Decision Tree"
-hyperparams = "Random State-42"
+hyperparams = "Max Depth-10"
 preprocess = "Standard"
-feature_select = "Correlation-based"
-tt_split = "80-20"
+feature_select = "All Features"
+tt_split = "70-30"
 
 # Preprocessing
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# Feature Selection
-corr = data.corr()['quality'].abs().sort_values(ascending=False)
-selected_features = corr[corr > 0.1].index.tolist()
-selected_features.remove('quality')
-X_sel = X[selected_features]
-
 # Train-Test Split
 X_train, X_test, y_train, y_test = train_test_split(
-    X_sel, y, test_size=0.2, random_state=42
+    X_scaled, y, test_size=0.3, random_state=42
 )
 
 # Model
-model = DecisionTreeRegressor(random_state=42)
+model = DecisionTreeRegressor(max_depth=10, random_state=42)
 model.fit(X_train, y_train)
 
 # Evaluation

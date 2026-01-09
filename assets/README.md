@@ -19,13 +19,20 @@
 
 - EXP-01: [Run Link](https://github.com/2022bcd0046-ankur/lab2/actions/runs/20863825104)
 
-![alt text](assets/image.png)
-![alt text](assets/image-1.png)
-![alt text](assets/image-2.png)
-
-- EXP-02: [Run Link](https://github.com/2022bcd0046-ankur/lab2/actions/runs/20864444900)
-
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
+- EXP-02: [Run Link](https://github.com/2022bcd0046-ankur/lab2/actions/runs/20864554637)
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+
+- EXP-03: [Run Link](https://github.com/2022bcd0046-ankur/lab2/actions/runs/20864739662)
+
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+
+- EXP-04:
